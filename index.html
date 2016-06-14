@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <title>Logo Tracing</title>
+  <meta name="description" content="">
+</head>
+
+<body class="">
+  <div id='nav'>
+    Choose sample:
+    <select id="samples">
+      <option value="ai">Ai</option>
+      <option value="google">Google</option>
+      <option value="ibm">IBM</option>
+      <option value="microsoft">Microsoft</option>
+    </select>
+
+    <button id="draw">Redraw</button>
+    <button id="download">Download</button>
+  </div>
+
+  <br/>
+
+  <div id="drawing">
+    <canvas id="logoCanvas" width="1920px" height="1080px" style="background-color: rgba(158, 167, 184, 0.2);"></canvas>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
